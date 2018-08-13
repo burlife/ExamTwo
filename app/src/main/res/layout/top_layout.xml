@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/sao"
+        />
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:background="@drawable/shpe_view"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:id="@+id/sou"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/search_icon2"
+                />
+            <EditText
+                android:id="@+id/sy_edname"
+                android:layout_width="360dp"
+                android:layout_height="match_parent"
+               android:background="@null"
+                android:hint="皮卡丘"
+                />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/sy_message"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/message"
+            />
+</LinearLayout>
